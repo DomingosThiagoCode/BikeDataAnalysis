@@ -2,16 +2,16 @@
 
 Este projeto contém um notebook Jupyter que realiza a análise dos dados de contagem de bicicletas em uma cidade, utilizando bibliotecas de ciência de dados e machine learning. O objetivo é extrair insights a partir dos dados e realizar previsões.
 
-##Estrutura do Projeto
+## Estrutura do Projeto
 
-###Preparação dos Dados: Leitura e visualização do conjunto de dados de contagem de bicicletas.
+### Preparação dos Dados:
+Leitura e visualização do conjunto de dados de contagem de bicicletas.
 
-###Análise Estatística: Aplicação de métodos estatísticos para entender o comportamento dos dados.
+### Análise Estatística: 
+Aplicação de métodos estatísticos para entender o comportamento dos dados.
 
-###Previsão com Prophet: Uso do modelo de previsão Prophet para prever a contagem futura de bicicletas
-
-### Previsão com Prophet
-Uso do modelo de previsão Prophet para prever a contagem futura de bicicletas.
+### Previsão com Prophet: 
+Uso do modelo de previsão Prophet para prever a contagem futura de bicicletas
 
 ## Principais Bibliotecas Utilizadas
 - **Pandas**: Manipulação e análise de dados.
@@ -20,7 +20,6 @@ Uso do modelo de previsão Prophet para prever a contagem futura de bicicletas.
 - **Scipy**: Ferramentas estatísticas.
 
 ## Dados
-Os dados utilizados no projeto podem ser encontrados [aqui](https://github.com/alura-cursos/data_science_projeto/raw/main/data/bicicletas.csv)
-
+Os dados utilizados no projeto podem ser encontrados no arquivo bicicletas_banco_de_dados
 ## Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
