@@ -1,25 +1,34 @@
-# Análise de Dados de Bicicletas
+# BikeDataAnalysis — análise e previsão de fluxo de bicicletas
 
-Este projeto contém um notebook Jupyter que realiza a análise dos dados de contagem de bicicletas em uma cidade, utilizando bibliotecas de ciência de dados e machine learning. O objetivo é extrair insights a partir dos dados e realizar previsões.
+Estudo de ciência de dados sobre contagens de bicicletas ao longo do tempo. O notebook reúne exploração dos dados, visualizações e um experimento de previsão de demanda com o modelo Prophet.
 
-## Estrutura do Projeto
+## O que o projeto aborda
 
-### Preparação dos Dados:
-Leitura e visualização do conjunto de dados de contagem de bicicletas.
+- Leitura e preparação de uma série temporal de contagens de bicicletas.
+- Análise exploratória, estatística descritiva e visualizações.
+- Investigação de padrões e sazonalidade ao longo do tempo.
+- Ajuste de um modelo Prophet e comparação entre observações e previsões.
 
-### Análise Estatística: 
-Aplicação de métodos estatísticos para entender o comportamento dos dados.
+## Tecnologias
 
-### Previsão com Prophet: 
-Uso do modelo de previsão Prophet para prever a contagem futura de bicicletas
+Python, Jupyter Notebook, pandas, SciPy, Matplotlib, Seaborn e Prophet.
 
-## Principais Bibliotecas Utilizadas
-- **Pandas**: Manipulação e análise de dados.
-- **Seaborn e Matplotlib**: Visualização dos dados.
-- **Prophet**: Ferramenta de previsão de séries temporais.
-- **Scipy**: Ferramentas estatísticas.
+## Arquivos
 
-## Dados
-Os dados utilizados no projeto podem ser encontrados no arquivo bicicletas_banco_de_dados
-## Contribuições
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
+- `Bicicletas.ipynb`: análise e modelagem.
+- `bicicletas_banco_de_dados.csv`: conjunto de dados utilizado.
+
+## Como explorar
+
+1. Clone ou baixe este repositório.
+2. Abra `Bicicletas.ipynb` no Jupyter Notebook ou no VS Code com suporte a notebooks.
+3. Instale as bibliotecas importadas pelo notebook, caso não estejam disponíveis no seu ambiente.
+4. Execute as células na ordem apresentada para reproduzir as análises.
+
+## Interpretação dos resultados
+
+Previsões de séries temporais são estimativas, não valores garantidos. A avaliação deve considerar a separação temporal entre treino e teste, os erros do modelo e possíveis mudanças nos padrões de mobilidade. Consulte as células e os gráficos do notebook para os resultados específicos.
+
+## Contexto
+
+Projeto de estudo e prática de análise de dados e aprendizado de máquina.
